@@ -4,9 +4,9 @@ secondRange(60, 70);
 function check (number:number):string {
     const three: boolean = number % 3 === 0, five: boolean = number % 5 === 0;
     return three && five ? 'FizzBuzz'
-                         : three ? 'Fizz'
-                         : five ? 'Buzz'
-                         : '-';
+         : three ? 'Fizz'
+         : five ? 'Buzz'
+         : '-';
 }
 function firstRange (firstNumber:number, secondNumber: number): void {
     console.log(`First Range of Numbers:
